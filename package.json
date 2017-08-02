@@ -1,0 +1,38 @@
+{
+  "name": "reltio-{app name}",
+  "version": "1.0.0",
+  "description": "{app description}",
+  "main": "index.js",
+  "scripts": {
+    "lint":"eslint src/**/*.js server/**/*.js",
+    "postinstall": "",
+    "production": "",
+    "test": "",
+  },
+  "dependencies": {
+    "auth-middleware": "bitbucket:reltio-ondemand/auth-middleware#1.4.0",
+    "express": "4.14.0",
+    "material-components-web": "^0.15.0",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-redux": "4.4.5",
+    "react-router": "2.8.1",
+    "redux": "3.6.0",
+    "ui-i18n": "bitbucket:reltio-ondemand/ui-i18n"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-eslint": "^7.2.1",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "eslint": "^4.1.1",
+    "eslint-plugin-react": "7.1.0",
+    "jest": "^17.0.3",
+    "less-loader": "^4.0.3",
+    "mocha": "^3.1.2",
+    "webpack": "^2.3.3"
+  }
+}
